@@ -25,4 +25,4 @@ jobs:
       run: composer install
 
     - name: Run PHPStan Checks
-      run: vendor/bin/phpstan analyze -c ./test.php/phpstan.neon ./test.php -vvv
+      run: vendor/bin/phpstan analyze -c ./phpstan.neon ./test.php -vvv
