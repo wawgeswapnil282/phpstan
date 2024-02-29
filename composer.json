@@ -1,6 +1,6 @@
 {
-    "name": "test",
-    "description": "test",
+    "name": "githubactions",
+    "description": "This is test repo to try github actions",
     "type": "project",
     "license": "MIT",
     "require": {
