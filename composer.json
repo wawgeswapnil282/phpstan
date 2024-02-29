@@ -1,0 +1,33 @@
+{
+    "name": "",
+    "description": "",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": "^7.4"
+        // Add your other project dependencies here
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^0.12"
+        // You can specify a specific version or use a version constraint
+    },
+    "autoload": {
+        "psr-4": {
+            "YourNamespace\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "YourNamespace\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+        // Add other scripts as needed
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
