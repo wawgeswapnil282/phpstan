@@ -1,0 +1,9 @@
+parameters:
+    level: 7  # Set the analysis level (0-8), where 0 is the loosest and 8 is the strictest.
+
+    checkGenericClassInNonGenericObjectType: false  # Disable checking generic class in non-generic object type.
+
+    reportUnmatchedIgnoredErrors: false  # Disable reporting unmatched ignored errors.
+
+    ignoreErrors:
+        - '#Some regex pattern to ignore specific errors#'
